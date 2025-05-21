@@ -48,10 +48,6 @@
 /* Define if --enable-ipv6 is specified */
 #define ENABLE_IPV6 1
 
-/* Define to 1 if your system stores words within floats with the most
-   significant word first */
-/* #undef FLOAT_WORDS_BIGENDIAN */
-
 /* Define if getpgrp() must be called as getpgrp(0). */
 /* #undef GETPGRP_HAVE_ARG */
 
@@ -828,7 +824,7 @@
 #define HAVE_NANOSLEEP 1
 
 /* Define to 1 if you have the `ncursesw' library. */
-/* #undef HAVE_NCURSESW */
+#define HAVE_NCURSESW 1
 
 /* Define to 1 if you have the <ncurses.h> header file. */
 #define HAVE_NCURSES_H 1
@@ -989,6 +985,9 @@
 
 /* Define if you can turn off readline's signal handling. */
 #define HAVE_RL_CATCH_SIGNAL 1
+
+/* Define if readline supports rl_compdisp_func_t */
+#define HAVE_RL_COMPDISP_FUNC_T 1
 
 /* Define if you have readline 2.2 */
 #define HAVE_RL_COMPLETION_APPEND_CHARACTER 1
@@ -1334,6 +1333,9 @@
 /* Define to 1 if you have the <sys/param.h> header file. */
 #define HAVE_SYS_PARAM_H 1
 
+/* Define to 1 if you have the <sys/pidfd.h> header file. */
+/* #undef HAVE_SYS_PIDFD_H */
+
 /* Define to 1 if you have the <sys/poll.h> header file. */
 #define HAVE_SYS_POLL_H 1
 
@@ -1434,8 +1436,8 @@
 /* Define to 1 if you have the `truncate' function. */
 #define HAVE_TRUNCATE 1
 
-/* Define to 1 if you have the `ttyname' function. */
-#define HAVE_TTYNAME 1
+/* Define to 1 if you have the `ttyname_r' function. */
+#define HAVE_TTYNAME_R 1
 
 /* Define to 1 if you don't have `tm_zone' but do have the external array
    `tzname'. */
@@ -1604,7 +1606,7 @@
 /* #undef PY_SSL_DEFAULT_CIPHER_STRING */
 
 /* PEP 11 Support tier (1, 2, 3 or 0 for unsupported) */
-#define PY_SUPPORT_TIER 0
+#define PY_SUPPORT_TIER 2
 
 /* Define if you want to build an interpreter with many run-time checks. */
 /* #undef Py_DEBUG */
@@ -1618,6 +1620,9 @@
 
 /* Define if you want to enable internal statistics gathering. */
 /* #undef Py_STATS */
+
+/* The version of SunOS/Solaris as reported by `uname -r' without the dot. */
+/* #undef Py_SUNOS_VERSION */
 
 /* Define if you want to enable tracing references for debugging purpose */
 /* #undef Py_TRACE_REFS */

@@ -19,3 +19,42 @@
 +defaults/osx-arm64::xz-5.6.4-h80987f9_1
 +defaults/osx-arm64::zlib-1.2.13-h18a0788_1
 # update specs: ['python==3.12']
+==> 2025-05-20 09:35:10 <==
+# cmd: /opt/miniconda3/bin/conda install -p /Users/charity/Desktop/Machine Learning/wenv ipykernel --update-deps --force-reinstall
+# conda version: 25.1.1
+-defaults/osx-arm64::python-3.12.0-h99e199e_0
++defaults/noarch::decorator-5.1.1-pyhd3eb1b0_0
++defaults/noarch::executing-0.8.3-pyhd3eb1b0_0
++defaults/noarch::pexpect-4.8.0-pyhd3eb1b0_3
++defaults/noarch::prompt_toolkit-3.0.43-hd3eb1b0_0
++defaults/noarch::ptyprocess-0.7.0-pyhd3eb1b0_2
++defaults/noarch::pure_eval-0.2.2-pyhd3eb1b0_0
++defaults/noarch::stack_data-0.2.0-pyhd3eb1b0_0
++defaults/noarch::wcwidth-0.2.5-pyhd3eb1b0_0
++defaults/osx-arm64::appnope-0.1.3-py312hca03da5_1001
++defaults/osx-arm64::asttokens-3.0.0-py312hca03da5_0
++defaults/osx-arm64::comm-0.2.1-py312hca03da5_0
++defaults/osx-arm64::debugpy-1.8.11-py312h313beb8_0
++defaults/osx-arm64::ipykernel-6.29.5-py312hca03da5_1
++defaults/osx-arm64::ipython-9.1.0-py312hca03da5_0
++defaults/osx-arm64::ipython_pygments_lexers-1.1.1-py312hca03da5_0
++defaults/osx-arm64::jedi-0.19.2-py312hca03da5_0
++defaults/osx-arm64::jupyter_client-8.6.3-py312hca03da5_0
++defaults/osx-arm64::jupyter_core-5.7.2-py312hca03da5_0
++defaults/osx-arm64::libsodium-1.0.18-h1a28f6b_0
++defaults/osx-arm64::matplotlib-inline-0.1.6-py312hca03da5_0
++defaults/osx-arm64::nest-asyncio-1.6.0-py312hca03da5_0
++defaults/osx-arm64::packaging-24.2-py312hca03da5_0
++defaults/osx-arm64::parso-0.8.4-py312hca03da5_0
++defaults/osx-arm64::platformdirs-4.3.7-py312hca03da5_0
++defaults/osx-arm64::prompt-toolkit-3.0.43-py312hca03da5_0
++defaults/osx-arm64::psutil-5.9.0-py312h80987f9_1
++defaults/osx-arm64::pygments-2.19.1-py312hca03da5_0
++defaults/osx-arm64::python-3.12.9-h99e199e_0
++defaults/osx-arm64::python-dateutil-2.9.0post0-py312hca03da5_2
++defaults/osx-arm64::pyzmq-26.2.0-py312h313beb8_0
++defaults/osx-arm64::six-1.17.0-py312hca03da5_0
++defaults/osx-arm64::tornado-6.4.2-py312h80987f9_0
++defaults/osx-arm64::traitlets-5.14.3-py312hca03da5_0
++defaults/osx-arm64::zeromq-4.3.5-h313beb8_0
+# update specs: ['ipykernel']
